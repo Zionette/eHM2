@@ -1,0 +1,128 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Handcrafted pieces of Art"
+  content : "Discover unique handmade items, handcrafted by Zionette with impeccable craftsmanship."
+  image : "images/products/CollageFramed.png"
+  # button
+  button:
+    enable : true
+    label : "All Craftsmanships"
+    link : "products"
+  # demo video
+  video:
+    enable : true
+    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "Newest Creation on our Show Case"
+  content : "This fedora-style Summer Tweed hat shades you during those beautiful summer walks, and gives
+  a gives you a style like no other, enjoy this beauty!"
+  image : "images/products/Hat4.png"
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : "Buy one Get One Free Rosemary~Mint Soap"
+  content : "Available for limited time only. Grab one while you still can!"
+  image : "images/.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "Soaps"
+    link : "products"
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Ingredients of our Soaps, Lotions, Bath Bombs, and Lip Care"
+  subtitle : "Only the finest essential oils and herbs are infused into our heavenly handmade boutique soaps."
+  materialItem:
+    # material item loop
+    - title : "Matcha Seeds"
+      image : "images/material/material-1.png"
+      content : "Matcha is a powder that's made of finely ground green tea leaves from the Camellia sinensis plant."
+      
+    # material item loop
+    - title : "Aloe Vera"
+      image : "images/material/material-2.png"
+      content : "Aloe vera is gel from the leaves of aloe plants. People have used it for thousands of years for healing and softening the skin."
+      
+    # material item loop
+    - title : "Turmeric"
+      image : "images/material/material-3.png"
+      content : "Turmeric is a plant related to ginger that is grown throughout India, other parts of Asia, and Central America.  It is sometimes called the Golden Spice because of its yellow, earthy color."
+      
+      
+    # material item loop
+    - title : "Tulshi leaf"
+      image : "images/material/material-4.png"
+      content : "Tulsi leaves are part of the worship of Vishnu and his avatars and some other deities, including Krishna and Rama, and other male Vaishnava deities, such as Hanuman and some brahmanas."
+
+########################### Advantage #########################
+advantage:
+  enable : true
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Pure and natural ingredents<br> without the added toxins that you get from your local grocery store."
+  image : "images/products/SoapCollage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+######################## Promo Video ##########################
+video:
+  enable : true
+  title : "How To Use This Product?"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  videoThumb : "images/video-thumb.jpg"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Products #############################
+products:
+  enable : true
+  title : "Handcrafted Pieces"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Cloud4z2.com"
+      image : "images/clients/Cloud4z2Client2.png" # size 100px*100px
+      designation : "Solutions Architect, Cloud4z2.com"
+      content : "I love the summer hat, <br> it's great during those summer days <br> when you're taking a walk on those warm summer day."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "PEOPLE Unleashed"
+      image : "images/clients/PeopleClient3.png" # size 100px*100px
+      designation : "Founder, PEOPLE Unleashed"
+      content : "Soaps are phenominal! <br> They are made with essential oils <br> and herbs from her garden."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Zionette Cleek"
+      image : "images/clients/Zionette.png" # size 100px*100px
+      designation : "Founder, Handmade by Zionette, and PEOPLE Unleashed"
+      content : "The moccasins are phenominally comfortable, <br> and have been great for my summer walks <br> this year.  Thanks Handmade by Zionette!"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Goober"
+      image : "images/clients/Goober.png" # size 100px*100px
+      designation : "Master Gardener, Goober's Backyard"
+      content : "The handmade Rosemary Lavendar is my favorite, smells fantastic! <br> The essential oils <br> and herbs give this soap such a wonderful aroma and keeps my skin feeling fresh and clean."
+      rating : "five" # rating star, one to five
